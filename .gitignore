@@ -1,0 +1,13 @@
+.DS_Store
+*.swp
+__pycache__/
+
+# Copyrighted material and personal recordings never go to git
+materials/*
+!materials/README.md
+recordings/*
+!recordings/README.md
+*.wav
+
+# Whisper models are hundreds of MB
+*.bin
